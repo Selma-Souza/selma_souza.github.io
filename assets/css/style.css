@@ -927,6 +927,56 @@ section .container {
 }
 */
 
+
+/*--------------------------------------------------------------
+# Thanks
+--------------------------------------------------------------*/
+.thank {
+  padding-top: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.thank .container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.thank .portfolio-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+
+.thank .col-lg-8 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+.thank .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.thank .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.thank .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #18d26e;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
