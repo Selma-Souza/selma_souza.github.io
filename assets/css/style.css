@@ -961,6 +961,16 @@ section .container {
   margin-left: 150px;
 }
 
+@media (max-width: 768px) {
+  .thank .col-lg-8 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 2%;
+  }
+}
+
+/* Apagar */
+/*
 .thank .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -976,6 +986,7 @@ section .container {
 .thank .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
 }
+*/
 
 /*--------------------------------------------------------------
 # Contact
